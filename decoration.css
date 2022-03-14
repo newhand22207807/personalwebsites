@@ -1,0 +1,55 @@
+
+.header{
+    display: flex;
+    border: 2px black solid;
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+}
+
+.header_picture{
+    flex:none;
+    /*border: 2px black solid;*/
+    margin-left: 20px;
+}
+
+.content{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    height: 800px;
+    border: 2px black solid;
+}
+.the_marquee{
+    flex: auto;
+    
+    margin-left: 20px;
+
+}
+.left_header{
+    flex: block;
+    height: 150px;
+    border: 2px black solid;
+    
+}
+.picture{
+    float: left;
+}
+.text{
+    font-size: 16px;
+    word-wrap: break-word;
+}
+
+.left{
+    display: flex;
+    /*border: 2px black solid;*/
+    width: 30%;
+
+}
+.right{
+    display: auto;
+    border: 2px black solid;
+    margin-left: 30px;
+}
